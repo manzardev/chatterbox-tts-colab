@@ -1,5 +1,7 @@
 # Chatterbox TTS - Colab Notebook
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/manzardev/chatterbox-tts-colab/blob/main/chatterbox-tts-colab.ipynb)
+
 A ready-to-run Google Colab notebook for **Chatterbox**, an open-source, state-of-the-art voice cloning text-to-speech model by Resemble AI.
 
 Clone any voice from a short audio sample and generate speech in that voice, right in your browser — no local setup, GPU included via Colab's free tier.
@@ -21,7 +23,7 @@ A Gradio web UI where you can:
 
 ## How to use
 
-1. Open the notebook in Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/manzardev/chatterbox-tts-colab/blob/main/chatterbox-tts-colab.ipynb)
+1. Click the "Open in Colab" badge above
 2. Go to **Runtime → Change runtime type → T4 GPU**
 3. Run **Cell 1** (installs dependencies, then restarts the kernel — this is expected, just wait for it to finish)
 4. Run **Cell 2** (loads the model, mounts Google Drive)
